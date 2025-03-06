@@ -6,6 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score
 
+print("Code starts from here")
 # Load the dataset
 df = pd.read_csv("C:\\Users\\rponkam\\OneDrive - DXC Production\\Desktop\\Rakesh_DS\\DataSet\\synthetic_fraud_dataset.csv")
 
