@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, accuracy_score
 
 print("Code starts from here")
 # Load the dataset
-df = pd.read_csv("C:\\Users\\rponkam\\OneDrive - DXC Production\\Desktop\\Rakesh_DS\\DataSet\\synthetic_fraud_dataset.csv")
+df = pd.read_csv("..\\Desktop\\Rakesh_DS\\DataSet\\synthetic_fraud_dataset.csv")
 
 # Display basic dataset information
 print(df.describe())
@@ -83,4 +83,5 @@ print(f"Testing Accuracy: {test_acc:.4f}")
 if train_acc > test_acc + 0.10:  # 10% margin to detect overfitting
     print("⚠️ Model is likely overfitting!")
 else:
+
     print("✅ Model is generalizing well.")
